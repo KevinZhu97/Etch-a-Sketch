@@ -8,16 +8,16 @@
     grid-gap: 0em;
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-cols), 1fr);
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
   }
   
   .grid-item {
-    border: 1px solid #ddd;
-    text-align: center;
-    margin: 0 0;
-    width: 30px;
-    height: 30px;
+    display: grid;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin: 0;
   }
 
 .hovered {
